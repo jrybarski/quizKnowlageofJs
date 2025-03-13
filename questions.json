@@ -1,0 +1,1088 @@
+[
+      {
+        "index": 1,
+        "question_name": "What is the callback function into JS?",
+        "answear_a": "represents the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+        "answear_b": "function passed into another function as an argument",
+        "answear_c": "creates a binding of a new async function to a given name",
+        "answear_d": "represents an event which takes place on an EventTarget",
+        "correct_answear": "b",
+        "category": "Asynchronic programming"
+      },
+      {
+        "index": 2,
+        "question_name": "What is the Promise object into JS?",
+        "answear_a": "represents the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+        "answear_b": "function passed into another function as an argument",
+        "answear_c": "creates a binding of a new async function to a given name",
+        "answear_d": "represents an event which takes place on an EventTarget",
+        "correct_answear": "a",
+        "category": "Asynchronic programming"
+      },
+      {
+        "index": 3,
+        "question_name": "What is the async/await block into JS?",
+        "answear_a": "represents the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+        "answear_b": "function passed into another function as an argument",
+        "answear_c": "creates a binding of a new async function to a given name",
+        "answear_d": "represents an event which takes place on an EventTarget",
+        "correct_answear": "c",
+        "category": "Asynchronic programming"
+      },
+      {
+        "index": 4,
+        "question_name": "What is the event loop into JS?",
+        "answear_a": "represents the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+        "answear_b": "function passed into another function as an argument",
+        "answear_c": "creates a binding of a new async function to a given name",
+        "answear_d": "represents an event which takes place on an EventTarget",
+        "correct_answear": "d",
+        "category": "Asynchronic programming"
+      },
+      {
+        "index": 5,
+        "question_name": "What is the callback hell into JS?",
+        "answear_a": "can be used to define a function inside an expression",
+        "answear_b": "multiple nested callbacks that become difficult to understand, manage, and maintain",
+        "answear_c": "runs as soon as it's defined",
+        "answear_d": "compact alternative to a traditional function expression",
+        "correct_answear": "b",
+        "category": "Asynchronic programming"
+      },
+      {
+        "index": 6,
+        "question_name": "Which method could help us work with fulfilled state of Promise object?",
+        "answear_a": "try()",
+        "answear_b": "catch()",
+        "answear_c": "then()",
+        "answear_d": "finally()",
+        "correct_answear": "c",
+        "category": "Asynchronic programming"
+      },
+      {
+        "index": 7,
+        "question_name": "What are the main OOP principles?",
+        "answear_a": "encapsulation, abstraction, inheritance, polymorphism",
+        "answear_b": "all of the above",
+        "answear_c": "encapsulation and polymorphism only",
+        "answear_d": "abstraction and inheritance only",
+        "correct_answear": "a",
+        "category": "Classes and OOP"
+      },
+      {
+        "index": 8,
+        "question_name": "How to create an object in JavaScript?",
+        "answear_a": "const person = {};",
+        "answear_b": "const person = new Object();",
+        "answear_c": "all of the above",
+        "answear_d": "none of the above",
+        "correct_answear": "c",
+        "category": "Classes and OOP"
+      },
+      {
+        "index": 9,
+        "question_name": "How to get the 'firstName' attribute from the object 'const person = { firstName: 'John' };'?",
+        "answear_a": "console.log(person.firstName);",
+        "answear_b": "console.log(person['John']);",
+        "answear_c": "console.log(person[firstName]);",
+        "answear_d": "console.log(firstName);",
+        "correct_answear": "a",
+        "category": "Classes and OOP"
+      },
+      {
+        "index": 10,
+        "question_name": "Object.assign() is used for:",
+        "answear_a": "creating a new object, using an existing object as the prototype of the newly created object.",
+        "answear_b": "copying all enumerable own properties from one or more source objects to a target object.",
+        "answear_c": "returning an array of a given object's own enumerable property names, iterated in the same order that a normal loop would.",
+        "answear_d": "none of the above",
+        "correct_answear": "b",
+        "category": "Classes and OOP"
+      } ,
+
+        {
+          "index": 11,
+          "question_name": "Which methods belong to only String?",
+          "answear_a": ".length, .split(); .splice(); .slice();",
+          "answear_b": ".slice(); .toString(); .toLocaleString(); .toLocaleLowerCase();",
+          "answear_c": ".toString(); .slice(); .split(); .length;",
+          "answear_d": "none of the above",
+          "correct_answear": "d",
+          "category": "Strings and Arrays"
+
+        },
+        {
+          "index": 12,
+          "question_name": "Which methods belong to both String and Array?",
+          "answear_a": ".indexOf(); .pop(); .slice(); .toString()",
+          "answear_b": ".toString(); .indexOf(); .includes(); .lastIndexOf()",
+          "answear_c": ".toLocaleUpperCase(); .indexOf(); .includes(); .join()",
+          "answear_d": "none of the above",
+          "correct_answear": "c",
+          "category": "Strings and Arrays"
+        },
+        {
+          "index": 13,
+          "question_name": "What is TRUE for the \".sort()\" method?",
+          "answear_a": "Changes an initial array",
+          "answear_b": "Creates a new array",
+          "answear_c": "Doesn’t return any data",
+          "answear_d": "none of the above",
+          "correct_answear": "a",
+          "category": "Strings and Arrays"
+        },
+        {
+          "index": 14,
+          "question_name": "What is TRUE for the \".map()\" method?",
+          "answear_a": "Changes an initial array",
+          "answear_b": "Creates a new array",
+          "answear_c": "Doesn’t return any data",
+          "answear_d": "none of the above",
+          "correct_answear": "b",
+          "category": "Strings and Arrays"
+        },
+        {
+          "index": 15,
+          "question_name": "How to concatenate two arrays in JavaScript?",
+          "answear_a": "using \"rest\" operator",
+          "answear_b": "using \".concat()\" method",
+          "answear_c": "using \".fill()\" method",
+          "answear_d": "none of the above",
+          "correct_answear": "b",
+          "category": "Strings and Arrays"
+        },
+        {
+          "index": 16,
+          "question_name": "How to concatenate two strings in JavaScript?",
+          "answear_a": "using .concat() method and using template strings",
+          "answear_b": "using template array",
+          "answear_c": "using “+” operator",
+          "answear_d": "none of the above",
+          "correct_answear": "a",
+          "category": "Strings and Arrays"
+        },
+        {
+          "index": 17,
+          "question_name": "What method is used for transforming a string to an array?",
+          "answear_a": ".replace()",
+          "answear_b": ".slice()",
+          "answear_c": ".split()",
+          "answear_d": "none of the above",
+          "correct_answear": "c",
+          "category": "Strings and Arrays"
+        },
+        {
+          "index": 18,
+          "question_name": "How to find and change a value in a string?",
+          "answear_a": "using \".replace()\"",
+          "answear_b": "using \".match()\"",
+          "answear_c": "using \".search()\"",
+          "answear_d": "none of the above",
+          "correct_answear": "a",
+          "category": "Strings and Arrays"
+        },
+        {
+          "index": 19,
+          "question_name": "What is the possible return value of the \".match()\" method?",
+          "answear_a": "[]",
+          "answear_b": "Null",
+          "answear_c": "{}",
+          "answear_d": "none of the above",
+          "correct_answear": "a",
+          "category": "Strings and Arrays"
+        },
+        {
+          "index": 20,
+          "question_name": "How to remove an item from Array?",
+          "answear_a": "using \".splice()\"",
+          "answear_b": "using \".shift()\"",
+          "answear_c": "using \".pop()\"",
+          "answear_d": "all of the above",
+          "correct_answear": "d",
+          "category": "Strings and Arrays"
+        },
+            {
+              "index": 21,
+              "question_name": "What are the main OOP principles?",
+              "answear_a": "encapsulation",
+              "answear_b": "abstraction",
+              "answear_c": "inheritance and polymorphism",
+              "answear_d": "all of the above",
+              "correct_answear": "d",
+              "category":"Classes and OOP"
+
+            },
+            {
+              "index": 22,
+              "question_name": "How to create an object in JavaScript?",
+              "answear_a": "const person = {};",
+              "answear_b": "const person = new Object();",
+              "answear_c": "all of the above",
+              "answear_d": "none of the above",
+              "correct_answear": "c",
+              "category":"Classes and OOP"
+            },
+            {
+              "index": 23,
+              "question_name": "How to get the \"firstName\" attribute from the object \"const person = { firstName: 'John' };\"",
+              "answear_a": "console.log(person.firstName);",
+              "answear_b": "console.log(person['John']);",
+              "answear_c": "console.log(person[firstName]);",
+              "answear_d": "console.log(firstName);",
+              "correct_answear": "a",
+              "category":"Classes and OOP"
+            },
+            {
+              "index": 24,
+              "question_name": "Object.assign() is used for:",
+              "answear_a": "creating a new object, using an existing object as the prototype of the newly created object.",
+              "answear_b": "copying all enumerable own properties from one or more source objects to a target object.",
+              "answear_c": "returning an array of a given object's own enumerable property names, iterated in the same order that a normal loop would.",
+              "answear_d": "none of the above",
+              "correct_answear": "b",
+              "category":"Classes and OOP"
+            },
+            {
+              "index": 25,
+              "question_name": "How the mechanism by which JavaScript objects inherit features from one another is called?",
+              "answear_a": "parent",
+              "answear_b": "chain",
+              "answear_c": "prototype",
+              "answear_d": "proto",
+              "correct_answear": "c",
+              "category":"Classes and OOP"
+            },
+            {
+              "index": 26,
+              "question_name": "How to demonstrate inheritance properly in JavaScript?",
+              "answear_a": "prorotype Car extends Vehicle {...}",
+              "answear_b": "class Car extends Vehicle {...}",
+              "answear_c": "class Car inherits Vehicle {...}",
+              "answear_d": "class Car prototype Vehicle {...}",
+              "correct_answear": "b",
+              "category":"Classes and OOP"
+            },
+            
+                {
+                  "index": 27,
+                  "question_name": "Which method could help us work with rejected state of Promise object?",
+                  "answear_a": "try()",
+                  "answear_b": "catch()",
+                  "answear_c": "then()",
+                  "answear_d": "finally()",
+                  "correct_answear": "b",
+                  "category": "Asynchronic programming"
+                },
+                {
+                  "index": 28,
+                  "question_name": "What does finally() method mean in terms of Promise object?",
+                  "answear_a": "schedules a function to be called when the promise is rejected.",
+                  "answear_b": "stores the callbacks within the promise it is called on and immediately returns another Promise object",
+                  "answear_c": "schedules a function to be called when the promise is settled: either fulfilled or rejected",
+                  "answear_d": "returns or throws, synchronously or asynchronously and wraps its result in a Promise.",
+                  "correct_answear": "c",
+                  "category": "Asynchronic programming"
+                },
+                {
+                  "index": 29,
+                  "question_name": "What does Promise.all() method mean?",
+                  "answear_a": "returned promise fulfills when any of the input's promises fulfills, with this first fulfillment value. It rejects when all of the input's promises reject",
+                  "answear_b": "returned promise fulfills when all of the input's promises settle including when an empty iterable is passed, with an array of objects that describe the outcome of each promise.",
+                  "answear_c": "returned promise settles with the eventual state of the first promise that settles",
+                  "answear_d": "returned promise fulfills when all of the input's promises fulfill including when an empty iterable is passed, with an array of the fulfillment values. It rejects when any of the input's promises rejects, with this first rejection reason",
+                  "correct_answear": "d",
+                  "category": "Asynchronic programming"
+                },
+                {
+                  "index": 30,
+                  "question_name": "What does Promise.race() mean?",
+                  "answear_a": "returned promise fulfills when all of the input's promises fulfill including when an empty iterable is passed, with an array of the fulfillment values. It rejects when any of the input's promises rejects, with this first rejection reason",
+                  "answear_b": "returns a promise that fulfills or rejects as soon as one of the promises in an iterable fulfills or rejects, with the value or reason from that promise",
+                  "answear_c": "returned promise settles with the eventual state of the first promise that settles",
+                  "answear_d": "returned promise fulfills when all of the input's promises settle including when an empty iterable is passed, with an array of objects that describe the outcome of each promise.",
+                  "correct_answear": "b",
+                  "category": "Asynchronic programming"
+                },
+                {
+                  "index": 31,
+                  "question_name": "What does Promise.allSettled() mean?",
+                  "answear_a": "returned promise fulfills when all of the input's promises fulfill including when an empty iterable is passed, with an array of the fulfillment values. It rejects when any of the input's promises rejects, with this first rejection reason",
+                  "answear_b": "returns a promise that fulfills or rejects as soon as one of the promises in an iterable fulfills or rejects, with the value or reason from that promise",
+                  "answear_c": "returned promise settles with the eventual state of the first promise that settles",
+                  "answear_d": "returns a promise that resolves after all the given promises have either resolved or rejected, with an array of objects that each describe the outcome of each promise",
+                  "correct_answear": "d",
+                  "category": "Asynchronic programming"
+                },
+                {
+                  "index": 32,
+                  "question_name": "How do we handle usually the rejected state into async/await structure?",
+                  "answear_a": "using finally() method",
+                  "answear_b": "using try...catch block",
+                  "answear_c": "using allSettled() method",
+                  "answear_d": "using race() method",
+                  "correct_answear": "b",
+                  "category": "Asynchronic programming"
+                },
+                {
+                  "index": 33,
+                  "question_name": "How to handle asynchronous code in JavaScript?",
+                  "answear_a": "using callbacks",
+                  "answear_b": "using promises",
+                  "answear_c": "using rollbacks",
+                  "answear_d": "using async/await",
+                  "correct_answear": "d",
+                  "category": "Asynchronic programming"
+                },
+                {
+                  "index": 34,
+                  "question_name": "What parameters can have function 'executor' from the Promise Object?",
+                  "answear_a": "resolve",
+                  "answear_b": "fulfill",
+                  "answear_c": "reject",
+                  "answear_d": "execute",
+                  "correct_answear": "a",
+                  "category": "Asynchronic programming"
+                },
+                {
+                  "index": 35,
+                  "question_name": "Promise may exist in these states:",
+                  "answear_a": "fulfilled",
+                  "answear_b": "executed",
+                  "answear_c": "pending",
+                  "answear_d": "rejected",
+                  "correct_answear": "a",
+                  "category": "Asynchronic programming"
+                },
+                {
+                  "index": 36,
+                  "question_name": "Choose Promise methods:",
+                  "answear_a": ".then()",
+                  "answear_b": ".catch()",
+                  "answear_c": ".finally()",
+                  "answear_d": "all of above",
+                  "correct_answear": "d",
+                  "category": "Asynchronic programming"
+                },
+                {
+                  "index": 37,
+                  "question_name": "What is a proper syntax to await a result in the scope of the asynchronous function?",
+                  "answear_a": "const await result = asyncFunction();",
+                  "answear_b": "const result = await asyncFunction();",
+                  "answear_c": "const result = await asyncFunction().then();",
+                  "answear_d": "const result = asyncFunction().await();",
+                  "correct_answear": "b",
+                  "category": "Asynchronic programming"
+                },
+                    {
+                      "index": 38,
+                      "question_name": "What keywords allow you to overwrite the original value in a variable?",
+                      "answear_a": "var and let",
+                      "answear_b": "const and let",
+                      "answear_c": "const and var",
+                      "answear_d": "none of the above",
+                      "correct_answear": "a",
+                      "category":"Variables and data types"
+                    },
+                    {
+                      "index": 39,
+                      "question_name": "What keyword for creating variables does have the effect of bubbling (hoisting)?",
+                      "answear_a": "const",
+                      "answear_b": "var",
+                      "answear_c": "let",
+                      "answear_d": "global",
+                      "correct_answear": "b",
+                      "category":"Variables and data types"
+                    },
+                    {
+                      "index": 40,
+                      "question_name": "What keywords for creating variables does have a block scope of visibility?",
+                      "answear_a": "var",
+                      "answear_b": "const",
+                      "answear_c": "let",
+                      "answear_d": "var and let",
+                      "correct_answear": "d",
+                      "category":"Variables and data types"
+                    },
+                    {
+                      "index": 41,
+                      "question_name": "Select primitive data types:",
+                      "answear_a": "true, null, 1",
+                      "answear_b": "{ name: 'John' age: 28 }",
+                      "answear_c": "['Hello world']",
+                      "answear_d": "{ name: 'John' }",
+                      "correct_answear": "a",
+                      "category":"Variables and data types"
+                    },
+                    {
+                      "index": 42,
+                      "question_name": "Select complex data types that will be stored by reference:",
+                      "answear_a": "[true], { name: 'John' }",
+                      "answear_b": "27465583",
+                      "answear_c": "'Hello world'",
+                      "answear_d": "undefined",
+                      "correct_answear": "a",
+                      "category":"Variables and data types"
+                    },
+                    {
+                      "index": 43,
+                      "question_name": "Select Operators for Strict Comparison",
+                      "answear_a": "===, !==",
+                      "answear_b": "!=",
+                      "answear_c": "=",
+                      "answear_d": "==",
+                      "correct_answear": "a",
+                      "category":"Variables and data types"
+                    },
+                    {
+                      "index": 44,
+                      "question_name": "What blocks are there in the try catch statement?",
+                      "answear_a": "try while",
+                      "answear_b": "try catch while",
+                      "answear_c": "try catch then",
+                      "answear_d": "try catch finally",
+                      "correct_answear": "d",
+                      "category":"Variables and data types"
+                    },
+                    {
+                      "index": 45,
+                      "question_name": "Try...Catch is needed for:",
+                      "answear_a": "ignoring errors",
+                      "answear_b": "error handling",
+                      "answear_c": "performing any action in the cycle",
+                      "answear_d": "performing asynchronous operations",
+                      "correct_answear": "b",
+                      "category":"Variables and data types"
+                    },
+                        {
+                          "index": 46,
+                          "question_name": "How to continue the loop?",
+                          "answear_a": "return",
+                          "answear_b": "break",
+                          "answear_c": "continue",
+                          "answear_d": "start",
+                          "correct_answear": "c",
+                          "category": "Conditions and loops"
+                        },
+                        {
+                          "index": 47,
+                          "question_name": "How to interrupt the execution of the loop?",
+                          "answear_a": "return",
+                          "answear_b": "break",
+                          "answear_c": "continue",
+                          "answear_d": "start",
+                          "correct_answear": "b",
+                          "category": "Conditions and loops"
+                        },
+                        {
+                          "index": 48,
+                          "question_name": "Which cycle first performs the action and then checks the condition?",
+                          "answear_a": "for of",
+                          "answear_b": "do while",
+                          "answear_c": "for",
+                          "answear_d": "while",
+                          "correct_answear": "b",
+                          "category": "Conditions and loops"
+                        },
+                        {
+                          "index": 49,
+                          "question_name": "Choose the loop that is more appropriate to iterate through an object",
+                          "answear_a": "for of",
+                          "answear_b": "for in",
+                          "answear_c": "for",
+                          "answear_d": "while",
+                          "correct_answear": "b",
+                          "category": "Conditions and loops"
+                        },
+                        {
+                          "index": 50,
+                          "question_name": "Choose the loop that is more appropriate to iterate through an array",
+                          "answear_a": "for of",
+                          "answear_b": "for in",
+                          "answear_c": "for",
+                          "answear_d": "while",
+                          "correct_answear": "a",
+                          "category": "Conditions and loops"
+                        },
+                        {
+                          "index": 51,
+                          "question_name": "Loop to iterate through values in free form:",
+                          "answear_a": "for of",
+                          "answear_b": "for in",
+                          "answear_c": "for",
+                          "answear_d": "while",
+                          "correct_answear": "d",
+                          "category": "Conditions and loops"
+                        },
+  {
+    "index": 52,
+    "question_name": "Choose type of functions in JavaScript",
+    "answear_a": "Function declaration",
+    "answear_b": "Function expression",
+    "answear_c": "Arrow functions, IIFE",
+    "answear_d": "all above",
+    "correct_answear": "d",
+    "category":"Javascript functions"
+  },
+  {
+    "index": 53,
+    "question_name": "How to return a result of function execution:",
+    "answear_a": "Nothing, just execute a function",
+    "answear_b": "via return keyword",
+    "answear_c": "via continue keyword",
+    "answear_d": "via break keyword",
+    "correct_answear": "b",
+    "category":"Javascript functions"
+  },
+  {
+    "index": 54,
+    "question_name": "Which properties arrow functions do not have?",
+    "answear_a": "return statement",
+    "answear_b": "arguments object",
+    "answear_c": "Context",
+    "answear_d": "Closure",
+    "correct_answear": "b",
+    "category":"Javascript functions"
+  },
+  {
+    "index": 55,
+    "question_name": "What will be in the rest parameters in function if several parameters are passed?",
+    "answear_a": "All values as passed like a, b, c",
+    "answear_b": "All values in an object like {}",
+    "answear_c": "All values in an array like []",
+    "answear_d": "All values in an class",
+    "correct_answear": "c",
+    "category":"Javascript functions"
+  },
+  {
+    "index": 56,
+    "question_name": "How to call internal properties within an object?",
+    "answear_a": "Just call them as is",
+    "answear_b": "Call from object name like object.prop",
+    "answear_c": "Call using ‘this’ keyword",
+    "answear_d": "Call by referencing the property using a string like 'object.'",
+    "correct_answear": "b",
+    "category":"Javascript functions"
+  },
+  {
+    "index": 57,
+    "question_name": "Is it possible to assign default parameters to all parameters in a function except the first parameter?",
+    "answear_a": "No",
+    "answear_b": "Yes, ’null’ should be used",
+    "answear_c": "Yes, but it will be undefined",
+    "answear_d": "Yes, rest operator should be used",
+    "correct_answear": "d",
+    "category":"Javascript functions"
+  },
+  {
+    "index": 58,
+    "question_name": "What does floating (hoisting) mean?",
+    "answear_a": "A function stays available at any time after executing the function",
+    "answear_b": "It’s impossible to use ‘return’ statement in the function",
+    "answear_c": "This function has default parameters",
+    "answear_d": "The function is available before the place where the function was declarated",
+    "correct_answear": "d",
+    "category":"Javascript functions"
+  },
+  {
+    "index": 59,
+    "question_name": "What does closure mean?",
+    "answear_a": "It’s possible to use the function before the declaration of the function",
+    "answear_b": "This function has return statement",
+    "answear_c": "When a function has a context",
+    "answear_d": "When a variable is locked within a high level function and is not visible outside but can be used inside",
+    "correct_answear": "d",
+    "category":"Javascript functions"
+  },
+  {
+    "index": 60,
+    "question_name": "What are IIFE functions?",
+    "answear_a": "Functions without default parameters",
+    "answear_b": "Functions without closure and arguments object",
+    "answear_c": "Synchronous functions",
+    "answear_d": "Functions that are executed immediately after creation",
+    "correct_answear": "d",
+    "category":"Javascript functions"
+  },
+  {
+    "index": 61,
+    "question_name": "What is the name of the effect when a function calls itself inside?",
+    "answear_a": "Closure",
+    "answear_b": "Context",
+    "answear_c": "Recursion",
+    "answear_d": "IIFE",
+    "correct_answear": "c",
+    "category":"Javascript functions"
+  },
+  {
+  "index": 62,
+  "question_name": "What is the callback function into JS?",
+  "answear_a": "function passed into another function as an argument",
+  "answear_b": "represents the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+  "answear_c": "represents an event which takes place on an EventTarget",
+  "answear_d": "creates a binding of a new async function to a given name",
+  "correct_answear": "a",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 63,
+  "question_name": "What is the Promise object into JS?",
+  "answear_a": "represents an event which takes place on an EventTarget",
+  "answear_b": "creates a binding of a new async function to a given name",
+  "answear_c": "function passed into another function as an argument",
+  "answear_d": "represents the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+  "correct_answear": "d",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 64,
+  "question_name": "What is the async/await block into JS?",
+  "answear_a": "represents the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+  "answear_b": "creates a binding of a new async function to a given name",
+  "answear_c": "function passed into another function as an argument",
+  "answear_d": "represents an event which takes place on an EventTarget",
+  "correct_answear": "b",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 65,
+  "question_name": "What is the event loop into JS?",
+  "answear_a": "function passed into another function as an argument",
+  "answear_b": "represents the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+  "answear_c": "represents an event which takes place on an EventTarget",
+  "answear_d": "creates a binding of a new async function to a given name",
+  "correct_answear": "c",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 66,
+  "question_name": "What is the callback hell into JS?",
+  "answear_a": "runs as soon as it's defined",
+  "answear_b": "compact alternative to a traditional function expression",
+  "answear_c": "can be used to define a function inside an expression",
+  "answear_d": "multiple nested callbacks that become difficult to understand, manage, and maintain",
+  "correct_answear": "d",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 67,
+  "question_name": "Which method could help us work with fulfilled state of Promise object?",
+  "answear_a": "then()",
+  "answear_b": "catch()",
+  "answear_c": "try()",
+  "answear_d": "finally()",
+  "correct_answear": "a",
+  "category": "Asynchronic programming"
+},
+  {
+    "index": 68,
+    "question_name": "How to remove an item from Array?",
+    "answear_a": "using \".pop()\"",
+    "answear_b": "using \".splice()\"",
+    "answear_c": "all of the above",
+    "answear_d": "using \".shift()\"",
+    "correct_answear": "c",
+    "category": "Strings and Arrays"
+  },
+  {
+    "index": 69,
+    "question_name": "What is the possible return value of the \".match()\" method?",
+    "answear_a": "null",
+    "answear_b": "none of the above",
+    "answear_c": "[]",
+    "answear_d": "{}",
+    "correct_answear": "c",
+    "category": "Strings and Arrays"
+  },
+  {
+    "index": 70,
+    "question_name": "How to find and change a value in a string?",
+    "answear_a": "using \".match()\"",
+    "answear_b": "using \".replace()\"",
+    "answear_c": "using \".search()\"",
+    "answear_d": "none of the above",
+    "correct_answear": "b",
+    "category": "Strings and Arrays"
+  },
+  {
+    "index": 71,
+    "question_name": "What method is used for transforming a string to an array?",
+    "answear_a": "none of the above",
+    "answear_b": ".split()",
+    "answear_c": ".slice()",
+    "answear_d": ".replace()",
+    "correct_answear": "b",
+    "category": "Strings and Arrays"
+  },
+  {
+    "index": 72,
+    "question_name": "How to concatenate two strings in JavaScript?",
+    "answear_a": "using template array",
+    "answear_b": "using .concat() method and using template strings",
+    "answear_c": "using \"+\" operator",
+    "answear_d": "none of the above",
+    "correct_answear": "b",
+    "category": "Strings and Arrays"
+  },
+  {
+    "index": 73,
+    "question_name": "How to concatenate two arrays in JavaScript?",
+    "answear_a": "using \".concat()\" method",
+    "answear_b": "none of the above",
+    "answear_c": "using \"rest\" operator",
+    "answear_d": "using \".fill()\" method",
+    "correct_answear": "a",
+    "category": "Strings and Arrays"
+  },
+    {
+      "index": 74,
+      "question_name": "What is TRUE for the \".map()\" method?",
+      "answear_a": "Creates a new array",
+      "answear_b": "Doesn’t return any data",
+      "answear_c": "none of the above",
+      "answear_d": "Changes an initial array",
+      "correct_answear": "a",
+      "category": "Strings and Arrays"
+    },
+    {
+      "index": 75,
+      "question_name": "What is TRUE for the \".sort()\" method?",
+      "answear_a": "Doesn’t return any data",
+      "answear_b": "none of the above",
+      "answear_c": "Creates a new array",
+      "answear_d": "Changes an initial array",
+      "correct_answear": "d",
+      "category": "Strings and Arrays"
+    },
+    
+  {
+    "index": 76,
+    "question_name": "Which methods belong to both String and Array?",
+    "answear_a": "none of the above",
+    "answear_b": ".toLocaleUpperCase(); .indexOf(); .includes(); .join()",
+    "answear_c": ".toString(); .indexOf(); .includes(); .lastIndexOf()",
+    "answear_d": ".indexOf(); .pop(); .slice(); .toString()",
+    "correct_answear": "b",
+    "category": "Strings and Arrays"
+  },
+  {
+    "index": 77,
+    "question_name": "Which methods belong to only String?",
+    "answear_a": ".slice(); .toString(); .toLocaleString(); .toLocaleLowerCase();",
+    "answear_b": "none of the above",
+    "answear_c": ".length, .split(); .splice(); .slice();",
+    "answear_d": ".toString(); .slice(); .split(); .length;",
+    "correct_answear": "b",
+    "category": "Strings and Arrays"
+  },
+  {
+    "index": 78,
+    "question_name": "Object.assign() is used for:",
+    "answear_a": "none of the above",
+    "answear_b": "copying all enumerable own properties from one or more source objects to a target object.",
+    "answear_c": "returning an array of a given object's own enumerable property names, iterated in the same order that a normal loop would.",
+    "answear_d": "creating a new object, using an existing object as the prototype of the newly created object.",
+    "correct_answear": "b",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 79,
+    "question_name": "How to get the 'firstName' attribute from the object 'const person = { firstName: 'John' };'?",
+    "answear_a": "console.log(person['John']);",
+    "answear_b": "console.log(firstName);",
+    "answear_c": "console.log(person[firstName]);",
+    "answear_d": "console.log(person.firstName);",
+    "correct_answear": "d",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 80,
+    "question_name": "What are the main OOP principles?",
+    "answear_a": "abstraction",
+    "answear_b": "inheritance and polymorphism",
+    "answear_c": "encapsulation",
+    "answear_d": "all of the above",
+    "correct_answear": "d",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 81,
+    "question_name": "How to create an object in JavaScript?",
+    "answear_a": "const person = new Object();",
+    "answear_b": "const person = {};",
+    "answear_c": "none of the above",
+    "answear_d": "all of the above",
+    "correct_answear": "d",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 82,
+    "question_name": "How to get the \"firstName\" attribute from the object \"const person = { firstName: 'John' };\"?",
+    "answear_a": "console.log(person[firstName]);",
+    "answear_b": "console.log(firstName);",
+    "answear_c": "console.log(person['John']);",
+    "answear_d": "console.log(person.firstName);",
+    "correct_answear": "d",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 83,
+    "question_name": "Object.assign() is used for:",
+    "answear_a": "creating a new object, using an existing object as the prototype of the newly created object.",
+    "answear_b": "none of the above",
+    "answear_c": "copying all enumerable own properties from one or more source objects to a target object.",
+    "answear_d": "returning an array of a given object's own enumerable property names, iterated in the same order that a normal loop would.",
+    "correct_answear": "c",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 84,
+    "question_name": "How the mechanism by which JavaScript objects inherit features from one another is called?",
+    "answear_a": "proto",
+    "answear_b": "parent",
+    "answear_c": "chain",
+    "answear_d": "prototype",
+    "correct_answear": "d",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 85,
+    "question_name": "How to demonstrate inheritance properly in JavaScript?",
+    "answear_a": "prorotype Car extends Vehicle {...}",
+    "answear_b": "class Car prototype Vehicle {...}",
+    "answear_c": "class Car inherits Vehicle {...}",
+    "answear_d": "class Car extends Vehicle {...}",
+    "correct_answear": "d",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 86,
+    "question_name": "Which method could help us work with rejected state of Promise object?",
+    "answear_a": "try()",
+    "answear_b": "then()",
+    "answear_c": "catch()",
+    "answear_d": "finally()",
+    "correct_answear": "c",
+    "category": "Asynchronic programming"
+  },
+  {
+    "index": 87,
+    "question_name": "What does finally() method mean in terms of Promise object?",
+    "answear_a": "returns or throws, synchronously or asynchronously and wraps its result in a Promise.",
+    "answear_b": "schedules a function to be called when the promise is settled: either fulfilled or rejected",
+    "answear_c": "schedules a function to be called when the promise is rejected.",
+    "answear_d": "stores the callbacks within the promise it is called on and immediately returns another Promise object",
+    "correct_answear": "b",
+    "category": "Asynchronic programming"
+  },
+  {
+    "index": 88,
+    "question_name": "What does Promise.all() method mean?",
+    "answear_a": "returned promise settles with the eventual state of the first promise that settles",
+    "answear_b": "returned promise fulfills when any of the input's promises fulfills, with this first fulfillment value. It rejects when all of the input's promises reject",
+    "answear_c": "returned promise fulfills when all of the input's promises fulfill including when an empty iterable is passed, with an array of the fulfillment values. It rejects when any of the input's promises rejects, with this first rejection reason",
+    "answear_d": "returned promise fulfills when all of the input's promises settle including when an empty iterable is passed, with an array of objects that describe the outcome of each promise.",
+    "correct_answear": "c",
+    "category": "Asynchronic programming"
+  },
+  {
+    "index": 89,
+    "question_name": "What does Promise.race() mean?",
+    "answear_a": "returns a promise that fulfills or rejects as soon as one of the promises in an iterable fulfills or rejects, with the value or reason from that promise",
+    "answear_b": "returned promise settles with the eventual state of the first promise that settles",
+    "answear_c": "returned promise fulfills when all of the input's promises fulfill including when an empty iterable is passed, with an array of the fulfillment values. It rejects when any of the input's promises rejects, with this first rejection reason",
+    "answear_d": "returned promise fulfills when all of the input's promises settle including when an empty iterable is passed, with an array of objects that describe the outcome of each promise.",
+    "correct_answear": "a",
+    "category": "Asynchronic programming"
+  },
+  {
+    "index": 90,
+    "question_name": "What does Promise.allSettled() mean?",
+    "answear_a": "returns a promise that fulfills or rejects as soon as one of the promises in an iterable fulfills or rejects, with the value or reason from that promise",
+    "answear_b": "returns a promise that resolves after all the given promises have either resolved or rejected, with an array of objects that each describe the outcome of each promise",
+    "answear_c": "returned promise settles with the eventual state of the first promise that settles",
+    "answear_d": "returned promise fulfills when all of the input's promises fulfill including when an empty iterable is passed, with an array of the fulfillment values. It rejects when any of the input's promises rejects, with this first rejection reason",
+    "correct_answear": "b",
+    "category": "Asynchronic programming"
+  },
+  {
+    "index": 91,
+    "question_name": "How do we handle usually the rejected state into async/await structure?",
+    "answear_a": "using race() method",
+    "answear_b": "using allSettled() method",
+    "answear_c": "using try...catch block",
+    "answear_d": "using finally() method",
+    "correct_answear": "c",
+    "category": "Asynchronic programming"
+  },
+  {
+    "index": 92,
+    "question_name": "How to handle asynchronous code in JavaScript?",
+    "answear_a": "using async/await",
+    "answear_b": "using rollbacks",
+    "answear_c": "using promises",
+    "answear_d": "using callbacks",
+    "correct_answear": "a",
+    "category": "Asynchronic programming"
+  },
+  {
+    "index": 93,
+    "question_name": "What parameters can have function 'executor' from the Promise Object?",
+    "answear_a": "execute",
+    "answear_b": "reject",
+    "answear_c": "resolve",
+    "answear_d": "fulfill",
+    "correct_answear": "c",
+    "category": "Asynchronic programming"
+  },
+  {
+    "index": 94,
+    "question_name": "Promise may exist in these states:",
+    "answear_a": "executed",
+    "answear_b": "fulfilled",
+    "answear_c": "pending",
+    "answear_d": "rejected",
+    "correct_answear": "b",
+    "category": "Asynchronic programming"
+  },
+    {
+      "index": 95,
+      "question_name": "What is a proper syntax to await a result in the scope of the asynchronous function?",
+      "answear_a": "const result = asyncFunction().await();",
+      "answear_b": "const await result = asyncFunction();",
+      "answear_c": "const result = await asyncFunction();",
+      "answear_d": "const result = await asyncFunction().then();",
+      "correct_answear": "c",
+      "category": "Asynchronic programming"
+    },
+    {
+      "index": 96,
+      "question_name": "What keywords allow you to overwrite the original value in a variable?",
+      "answear_a": "const and var",
+      "answear_b": "none of the above",
+      "answear_c": "var and let",
+      "answear_d": "const and let",
+      "correct_answear": "c",
+      "category": "Variables and data types"
+    },
+    {
+      "index": 97,
+      "question_name": "What keyword for creating variables does have the effect of bubbling (hoisting)?",
+      "answear_a": "global",
+      "answear_b": "var",
+      "answear_c": "let",
+      "answear_d": "const",
+      "correct_answear": "b",
+      "category": "Variables and data types"
+    },
+    {
+      "index": 98,
+      "question_name": "What keywords for creating variables does have a block scope of visibility?",
+      "answear_a": "const",
+      "answear_b": "var",
+      "answear_c": "var and let",
+      "answear_d": "let",
+      "correct_answear": "c",
+      "category": "Variables and data types"
+    },
+    {
+      "index": 99,
+      "question_name": "Select primitive data types:",
+      "answear_a": "{ name: 'John' age: 28 }",
+      "answear_b": "['Hello world']",
+      "answear_c": "{ name: 'John' }",
+      "answear_d": "true, null, 1",
+      "correct_answear": "d",
+      "category": "Variables and data types"
+    },
+    {
+      "index": 100,
+      "question_name": "Select complex data types that will be stored by reference:",
+      "answear_a": "[true], { name: 'John' }",
+      "answear_b": "'Hello world'",
+      "answear_c": "undefined",
+      "answear_d": "27465583",
+      "correct_answear": "a",
+      "category": "Variables and data types"
+    },
+    {
+      "index": 101,
+      "question_name": "Select Operators for Strict Comparison",
+      "answear_a": "=",
+      "answear_b": "!=",
+      "answear_c": "==",
+      "answear_d": "===, !==",
+      "correct_answear": "d",
+      "category": "Variables and data types"
+    },
+    {
+      "index": 102,
+      "question_name": "What blocks are there in the try catch statement?",
+      "answear_a": "try while",
+      "answear_b": "try catch finally",
+      "answear_c": "try catch while",
+      "answear_d": "try catch then",
+      "correct_answear": "b",
+      "category": "Variables and data types"
+    },
+    {
+      "index": 103,
+      "question_name": "Try...Catch is needed for:",
+      "answear_a": "performing asynchronous operations",
+      "answear_b": "ignoring errors",
+      "answear_c": "performing any action in the cycle",
+      "answear_d": "error handling",
+      "correct_answear": "d",
+      "category": "Variables and data types"
+    },
+    {
+      "index": 104,
+      "question_name": "How to continue the loop?",
+      "answear_a": "break",
+      "answear_b": "start",
+      "answear_c": "return",
+      "answear_d": "continue",
+      "correct_answear": "d",
+      "category": "Conditions and loops"
+    },
+    {
+      "index": 105,
+      "question_name": "How to interrupt the execution of the loop?",
+      "answear_a": "continue",
+      "answear_b": "return",
+      "answear_c": "start",
+      "answear_d": "break",
+      "correct_answear": "d",
+      "category": "Conditions and loops"
+    },
+    {
+      "index": 106,
+      "question_name": "Which cycle first performs the action and then checks the condition?",
+      "answear_a": "for",
+      "answear_b": "do while",
+      "answear_c": "for of",
+      "answear_d": "while",
+      "correct_answear": "b",
+      "category": "Conditions and loops"
+    },
+    {
+      "index": 107,
+      "question_name": "Choose the loop that is more appropriate to iterate through an object",
+      "answear_a": "for",
+      "answear_b": "while",
+      "answear_c": "for in",
+      "answear_d": "for of",
+      "correct_answear": "c",
+      "category": "Conditions and loops"
+    },
+    {
+      "index": 108,
+      "question_name": "Choose the loop that is more appropriate to iterate through an array",
+      "answear_a": "while",
+      "answear_b": "for in",
+      "answear_c": "for of",
+      "answear_d": "for",
+      "correct_answear": "c",
+      "category": "Conditions and loops"
+    }
+ 
+    ]
