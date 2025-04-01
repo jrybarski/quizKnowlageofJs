@@ -7,6 +7,11 @@ const nextBtn = document.getElementById("nextBtn");
 let questions = [];
 let filteredQuestions = [];
 let score = 0;
+let correctStreak = 0; 
+const tenStreakSound = new Audio('./assets/mk.mp3');
+const twentyStreakSound = new Audio('./assets/ultrakill.mp3');
+const wrongAnswear = new Audio('./assets/wrong.mp3');
+const successAnswear = new Audio('./assets/success.mp3');
 
 let { answerA, answerB, answerC, answerD } = renderTemplate(containerMain, filterQuestionsByCategory);
 
@@ -16,9 +21,7 @@ scoreDisplay.classList.add("scoreDisplay");
 scoreDisplay.innerHTML = `Score: 0`;
 containerMain.insertBefore(scoreDisplay, document.getElementById("questionName"));
 
-function updateScoreDisplay() {
-    document.getElementById("scoreDisplay").innerHTML = `Score: ${score}`;
-}
+
 
 async function loadQuestions() {
     try {
@@ -36,6 +39,10 @@ async function loadQuestions() {
 }
 
 loadQuestions();
+
+function updateScoreDisplay() {
+    document.getElementById("scoreDisplay").innerHTML = `Score: ${score}`;
+}
 
 function filterQuestionsByCategory(category) {
     filteredQuestions = questions.filter(q => q.category === category);
@@ -59,6 +66,7 @@ function displayRandomQuestion() {
             el.className = "question"; 
         });
 
+        // Losujemy indeks z aktualnej długości tablicy
         const randomIndex = Math.floor(Math.random() * source.length);
         const randomQuestion = source[randomIndex];
         const correctAnswer = randomQuestion.correct_answear;
@@ -69,10 +77,9 @@ function displayRandomQuestion() {
         document.getElementById('questionAnswearC').innerHTML = randomQuestion.answear_c;
         document.getElementById('questionAnswearD').innerHTML = randomQuestion.answear_d;
 
-        answerA.replaceWith(answerA.cloneNode(true));
-        answerB.replaceWith(answerB.cloneNode(true));
-        answerC.replaceWith(answerC.cloneNode(true));
-        answerD.replaceWith(answerD.cloneNode(true));
+        [answerA, answerB, answerC, answerD].forEach(el => {
+            el.replaceWith(el.cloneNode(true));
+        });
 
         answerA = document.getElementById('questionAnswearA');
         answerB = document.getElementById('questionAnswearB');
@@ -83,27 +90,48 @@ function displayRandomQuestion() {
         answerB.addEventListener('click', (e) => checkAnswer(e.target, 'b', correctAnswer));
         answerC.addEventListener('click', (e) => checkAnswer(e.target, 'c', correctAnswer));
         answerD.addEventListener('click', (e) => checkAnswer(e.target, 'd', correctAnswer));
+
+        
+        source.splice(randomIndex, 1); 
+        source.forEach((question, index) => {
+            question.id = index; 
+        });
+
+        console.log("Aktualny stan tablicy pytań:");
+        console.log(source);
+
     } else {
         console.error('Brak pytań do wyświetlenia.');
     }
 }
+
 
 // Funkcja sprawdzająca odpowiedź
 function checkAnswer(element, selectedAnswer, correctAnswer) {
     if (correctAnswer === selectedAnswer) {
         element.classList.add("correct");
         score++;
+        correctStreak++; 
+        successAnswear.play();
+        
+        if (correctStreak === 10) {
+            tenStreakSound.play(); 
+        } else if (correctStreak === 20) {
+            twentyStreakSound.play();
+        }
         setTimeout(() => {
             updateScoreDisplay(); 
             displayRandomQuestion();
-        }, 1000);
+        }, 1500);
     } else {
         element.classList.add("wrong");
         score = 0;
+        correctStreak = 0;
+        wrongAnswear.play();
         setTimeout(() => {
             updateScoreDisplay(); 
             displayRandomQuestion();
-        }, 1000);
+        }, 5500);
     }
 }
 

@@ -1223,6 +1223,220 @@
   "answear_d": "all of the above",
   "correct_answear": "d",
   "category": "Strings and Arrays"
+},
+{
+  "index": 124,
+  "question_name": "When you create a subclass using the extends keyword, what will the class inherit from its parent?",
+  "answear_a": "The subclass inherits all of the parent’s getters, setters, and methods. You can also use the super keyword to set properties in the parent class.",
+  "answear_b": "The subclass does not directly inherit anything. You must use the super keyword to set properties and inherit getters, setters, and methods.",
+  "answear_c": "The subclass inherits all parent properties.",
+  "answear_d": "The subclass inherits only the parent class getters and setters.",
+  "correct_answear": "a",
+  "category": "Classes and OOP"
+},
+{
+  "index": 125,
+  "question_name": "What is the purpose of inheritance?",
+  "answear_a": "To create new functions that have the same data and methods as other functions.",
+  "answear_b": "To create functions that pass through the same parameters through a chain of functions.",
+  "answear_c": "To share data and methods between objects.",
+  "answear_d": "all above",
+  "correct_answear": "c",
+  "category": "Classes and OOP"
+},
+{
+  "index": 126,
+  "question_name": "Which of the following problems do classes alleviate?",
+  "answear_a": "Objects make it easy to create multiple classes that share properties and methods.",
+  "answear_b": "Classes inherit properties and methods from objects that make it easy to create objects with the same property values, but different property names.",
+  "answear_c": "Classes make it easy to create multiple objects that share property names, but not methods.",
+  "answear_d": "Classes make it easy to create multiple objects that share property names and methods.",
+  "correct_answear": "d",
+  "category": "Classes and OOP"
+},
+{
+  "index": 127,
+  "question_name": "Which of the following keywords is required to create a new class?",
+  "answear_a": "new",
+  "answear_b": "class",
+  "answear_c": "const",
+  "answear_d": "let",
+  "correct_answear": "b",
+  "category": "Classes and OOP"
+},
+{
+  "index": 128,
+  "question_name": "What is the purpose of the constructor() method?",
+  "answear_a": "The constructor() is called when you create a new instance of a class. It sets the property values for each instance.",
+  "answear_b": "Each property has a constructor() method. It is called whenever you try to set or get the property.",
+  "answear_c": "The constructor() method is only used in subclasses. The arguments are sent to the parent class where the properties are set.",
+  "answear_d": "Subclasses inherit the constructor() from the parent class to set property values for the child class.",
+  "correct_answear": "a",
+  "category": "Classes and OOP"
+},
+{
+  "index": 129,
+  "question_name": "What is the purpose of the super keyword?",
+  "answear_a": "The super keyword is called in a parent class to access the properties in all subclasses.",
+  "answear_b": "The super keyword is used in subclasses to call a parent constructor().",
+  "answear_c": "The super keyword is used to make the methods in a parent class available to the subclass.",
+  "answear_d": "The super keyword automatically create getters and setters for all properties.",
+  "correct_answear": "b",
+  "category": "Classes and OOP"
+},
+{
+  "index": 130,
+  "question_name": "Which of the following is NOT true of JavaScript modules?",
+  "answear_a": "Creating modules and only importing the necessary modules for each file prevents namespace pollution.",
+  "answear_b": "Creating modules makes it easier to keep sensitive information private from other modules.",
+  "answear_c": "Creating modules makes it easier to reuse logic in multiple parts of an application.",
+  "answear_d": "Creating modules makes it harder to find relevant code and makes debugging harder.",
+  "correct_answear": "d",
+  "category": "Javascript functions"
+},
+{
+  "index": 131,
+  "question_name": "Which of the following is the valid syntax in Node to import a module called robot.js from the same directory?",
+  "answear_a": "const Robot = import('robot.js');",
+  "answear_b": "const Robot = require('./robot.js');",
+  "answear_c": "const Robot = require('robot.js');",
+  "answear_d": "const Robot = require(Robot);",
+  "correct_answear": "b",
+  "category": "Javascript functions"
+},
+{
+  "index": 132,
+  "question_name": "Which one of the following is NOT a state that a Promise resolves to?",
+  "answear_a": "Undefined.",
+  "answear_b": "Pending.",
+  "answear_c": "Rejected.",
+  "answear_d": "Fulfilled.",
+  "correct_answear": "a",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 133,
+  "question_name": "What is the fulfilled value of Promise.all()?",
+  "answear_a": "An array",
+  "answear_b": "A Promise",
+  "answear_c": "An object",
+  "answear_d": "A variable",
+  "correct_answear": "a",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 133,
+  "question_name": "The .then() method returns: ",
+  "answear_a": "a Promise",
+  "answear_b": "An object",
+  "answear_c": "An array",
+  "answear_d": "A variable",
+  "correct_answear": "a",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 134,
+  "question_name": "How many parameters does a Promise constructor take?",
+  "answear_a": "1",
+  "answear_b": "3",
+  "answear_c": "2",
+  "answear_d": "4",
+  "correct_answear": "a",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 135,
+  "question_name": "Which of the following is useful for awaiting multiple promises where all are required but none depend on each other to execute?",
+  "answear_a": "Using nested callback functions.",
+  "answear_b": "Promise.all()",
+  "answear_c": "Using the async...await syntax instead of native promise syntax.",
+  "answear_d": "setTimeout()",
+  "correct_answear": "b",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 136,
+  "question_name": "True or False: the async...await syntax has functionality that cannot be accomplished by native promises.",
+  "answear_a": "True",
+  "answear_b": "False",
+  "answear_c": "##",
+  "answear_d": "##",
+  "correct_answear": "b",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 137,
+  "question_name": "What does the function example() return? 'async function example() { }'",
+  "answear_a": "A promise",
+  "answear_b": "A string",
+  "answear_c": "undefined",
+  "answear_d": "A function",
+  "correct_answear": "a",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 138,
+  "question_name": "Which of the following is NOT a benefit of the async...await syntax?",
+  "answear_a": "It lets us catch rejected promise errors with the exact same syntax we use to catch other types of errors.",
+  "answear_b": "It lets us easily store and refer back to the resolved values of earlier promises in a promise chain.",
+  "answear_c": "It reads more similarly to synchronous code.",
+  "answear_d": "It causes promises to resolve faster.",
+  "correct_answear": "",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 139,
+  "question_name": "What purpose does the async keyword serve?",
+  "answear_a": "It’s a built-in function which a callback function and number of milliseconds as parameters and delays the execution of the callback function that number of milliseconds.",
+  "answear_b": "It’s an operator that halts the execution of a function until a promise is no longer pending.",
+  "answear_c": "It’s a function that returns a function and/or accepts a function as a parameter.",
+  "answear_d": "It’s a keyword which indicates an asynchronous function.",
+  "correct_answear": "d",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 140,
+  "question_name": "What purpose does the await keyword serve?",
+  "answear_a": "It’s a keyword which indicates an asynchronous function.",
+  "answear_b": "It’s an operator used only inside an async function that halts the execution of a function until a given promise is no longer pending and returns the resolved value of the promise.",
+  "answear_c": "It’s a function passed into another function as a parameter which is invoked during the execution of that function.",
+  "answear_d": "It’s a JavaScript object which represents the eventual outcome of an asynchronous operation.",
+  "correct_answear": "b",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 141,
+  "question_name": "Which of the following is NOT true about the JavaScript Fetch API?",
+  "answear_a": "The Fetch API is powered by a XMLHttpRequest and used heavily in AJAX programming.",
+  "answear_b": "The fetch() function accepts a URL parameter.",
+  "answear_c": "The Fetch API uses promises to handle asynchronous data.",
+  "answear_d": "The Fetch API returns a promise that resolves to a response object or rejects with an error.",
+  "correct_answear": "a",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 142,
+  "question_name": "Which of the following is NOT used to create a request using fetch()?",
+  "answear_a": ".then()",
+  "answear_b": ".json()",
+  "answear_c": ".this()",
+  "answear_d": "JSON.stringify()",
+  "correct_answear": "c",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 143,
+  "question_name": "What is the difference between GET and POST requests?",
+  "answear_a": "GET requests receive response objects and POST requests send them.",
+  "answear_b": "POST requests receive response objects and GET requests send them.",
+  "answear_c": "GET requests only request data from other websites, whereas POST requests submit data to other sites.",
+  "answear_d": "POST requests only request data from other websites, whereas GET requests submit data to other sites.",
+  "correct_answear": "c",
+  "category": "Asynchronic programming"
 }
+
+
+
+
  
     ]
