@@ -1083,6 +1083,146 @@
       "answear_d": "for",
       "correct_answear": "c",
       "category": "Conditions and loops"
-    }
+    },
+    {
+      "index": 109,
+      "question_name": "What is the correct syntax for an IF statement?",
+      "answear_a": "if i == 5 then",
+      "answear_b": "if i = 5 then",
+      "answear_c": "if i = 5",
+      "answear_d": "if (i == 5)",
+      "correct_answear": "d",
+      "category": "Conditions and loops"
+   },
+   {
+    "index": 110,
+    "question_name": "How to convert this string into the array: [\"chocolate\", \"milk\", \"banana\"]?",
+    "answear_a": "string.split(\", \")",
+    "answear_b": "string.split(\" \")",
+    "answear_c": "string.join(\", \")",
+    "answear_d": "string-join(\" \")",
+    "correct_answear": "a",
+    "category": "Strings and Arrays"
+ },
+ {
+  "index": 111,
+  "question_name": "Which types of copying object are present in JS?",
+  "answear_a": "deep",
+  "answear_b": "wider",
+  "answear_c": "shallow",
+  "answear_d": "strict",
+  "correct_answear": "c",
+  "category": "Classes and OOP"
+},
+{
+  "index": 112,
+  "question_name": "What is TRUE for the \".map()\" method?",
+  "answear_a": "Changes an initial array",
+  "answear_b": "Creates a new array",
+  "answear_c": "Doesn't return any data",
+  "answear_d": "None of the above",
+  "correct_answear": "b",
+  "category": "Strings and Arrays"
+},
+{
+  "index": 113,
+  "question_name": "What happens if you create a new object using an object constructor, but don't add all the necessary arguments to declare all properties?",
+  "answear_a": "The object is created with the undeclared properties set to those of the previous object.",
+  "answear_b": "The object is created with the undeclared properties set to \"undefined.\"",
+  "answear_c": "The object contains an error.",
+  "answear_d": "The object is not created.",
+  "correct_answear": "b",
+  "category": "Classes and OOP"
+},
+{
+  "index": 114,
+  "question_name": "What does the forEach array method return?",
+  "answear_a": "converted array",
+  "answear_b": "sum of array elements",
+  "answear_c": "iterator",
+  "answear_d": "nothing",
+  "correct_answear": "d",
+  "category": "Strings and Arrays"
+},
+{
+  "index": 115,
+  "question_name": "Which operations below can be used to make a new string that says: \"Milk, chocolate\" using the variables: const stringOne = 'Milk'; const stringTwo = 'chocolate';",
+  "answear_a": "stringOne + \", \" + stringTwo",
+  "answear_b": "`${stringOne}, ${stringTwo}`",
+  "answear_c": "stringOne.concat(\", \", stringTwo)",
+  "answear_d": "all of the above",
+  "correct_answear": "d",
+  "category": "Strings and Arrays"
+},
+{
+  "index": 116,
+  "question_name": "How does the Promise all method work?",
+  "answear_a": "Returns an array of the results of all promises, may include resolve and fulfills.",
+  "answear_b": "Returns an array of promises whose state after execution is fulfilled.",
+  "answear_c": "Returns an array of fulfilled results up to the first rejected promise.",
+  "answear_d": "Returns an array of results if the state of all promises is fulfilled, or the first promise is rejected.",
+  "correct_answear": "d",
+  "category": "Asynchronic programming"
+},
+{
+  "index": 117,
+  "question_name": "How to convert the string to lower case?",
+  "answear_a": "string.toUpperCase()",
+  "answear_b": "string.toUpper()",
+  "answear_c": "string.toLowerCase()",
+  "answear_d": "string.toLower()",
+  "correct_answear": "c",
+  "category": "Strings and Arrays"
+},
+{
+  "index": 118,
+  "question_name": "What function do we use to change the below to an object? let myArray = [['myName', 'Name'], ['myAge', 12]]",
+  "answear_a": "myArray.toObject()",
+  "answear_b": "myArray.createObject()",
+  "answear_c": "Object.fromEntries(myArray)",
+  "answear_d": "Object.fromArrays(myArray)",
+  "correct_answear": "c",
+  "category": "Classes and OOP"
+},
+{
+  "index": 119,
+  "question_name": "What does Object.keys do in Object manipulation?",
+  "answear_a": "Allows us to iterate over each item in an object.",
+  "answear_b": "Sets the keys for an object.",
+  "answear_c": "Sets secrets for accessing objects.",
+  "answear_d": "Lists and returns all object keys as an array.",
+  "correct_answear": "d",
+  "category": "Classes and OOP"
+},
+{
+  "index": 121,
+  "question_name": "What happens if you create a new object using an object constructor, but don't add all the necessary arguments to declare all properties?",
+  "answear_a": "The object is created with the undeclared properties set to those of the previous object.",
+  "answear_b": "The object is created with the undeclared properties set to \"undefined.\"",
+  "answear_c": "The object contains an error.",
+  "answear_d": "The object is not created.",
+  "correct_answear": "b",
+  "category": "Classes and OOP"
+},
+{
+  "index": 122,
+  "question_name": "What does the forEach array method return?",
+  "answear_a": "converted array",
+  "answear_b": "sum of array elements",
+  "answear_c": "iterator",
+  "answear_d": "nothing",
+  "correct_answear": "d",
+  "category": "Strings and Arrays"
+},
+{
+  "index": 123,
+  "question_name": "Which operations below can be used to make a new string that says: \"Milk, chocolate\" using the variables: const stringOne = 'Milk'; const stringTwo = 'chocolate';",
+  "answear_a": "stringOne + \", \" + stringTwo",
+  "answear_b": "`${stringOne}, ${stringTwo}`",
+  "answear_c": "stringOne.concat(\", \", stringTwo)",
+  "answear_d": "all of the above",
+  "correct_answear": "d",
+  "category": "Strings and Arrays"
+}
  
     ]

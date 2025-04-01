@@ -45,14 +45,13 @@ export function renderTemplate(containerMain, filterQuestionsByCategory) {
     questionAnswearC.innerHTML = "C";
     questionAnswearD.innerHTML = "D";
 
-    // Inicjalizacja zmiennych dla odpowiedzi
+    
     let answerA = document.getElementById('questionAnswearA');
     let answerB = document.getElementById('questionAnswearB');
     let answerC = document.getElementById('questionAnswearC');
     let answerD = document.getElementById('questionAnswearD');
     let buttonCollection = document.querySelector('.buttonCollection');
 
-    // Tworzenie przycisków kategorii
     categories.forEach((category, index) => {
         const buttonCategory = document.createElement("button");
         buttonCategory.classList.add("buttonCategory");
