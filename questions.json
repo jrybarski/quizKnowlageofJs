@@ -1431,5 +1431,176 @@
     "answear_d": "POST requests only request data from other websites, whereas GET requests submit data to other sites.",
     "correct_answear": "c",
     "category": "Asynchronic programming"
+  },
+  {
+    "index": 144,
+    "question_name": "What is descript?",
+    "answear_a": "A signal from the browser that something has happened.",
+    "answear_b": "Happening.",
+    "answear_c": "Stifle.",
+    "answear_d": "Event.",
+    "correct_answear": "a",
+    "category": "Asynchronic programming"
+  },
+  {
+    "index": 145,
+    "question_name": "Which collection object allows unique value to be inserted only once?",
+    "answear_a": "Object.",
+    "answear_b": "Array.",
+    "answear_c": "Set.",
+    "answear_d": "Мар.",
+    "correct_answear": "c",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 146,
+    "question_name": "A method of an object is simply a property with a function definition as its value. True or false?",
+    "answear_a": "False.",
+    "answear_b": "True.",
+    "answear_c": "--",
+    "answear_d": "--.",
+    "correct_answear": "b",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 147,
+    "question_name": "What is the result of: typeof function()?",
+    "answear_a": "'function'.",
+    "answear_b": "'callback'.",
+    "answear_c": "'undefined'.",
+    "answear_d": "[object Object].",
+    "correct_answear": "a",
+    "category": "Javascript functions"
+  },
+  {
+    "index": 148,
+    "question_name": "Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?",
+    "answear_a": "You are calling a method named reduce on an empty array.",
+    "answear_b": "You are calling a method named reduce on an object that's has a null value.",
+    "answear_c": "You are calling a method named reduce on an object that does not exist.",
+    "answear_d": "You are calling a method named reduce on an object that's declared but has no value.",
+    "correct_answear": "c",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 149,
+    "question_name": "What HTML DOM method is used to get the HTML Elements by class name?",
+    "answear_a": "getElementsByClassName.",
+    "answear_b": "getElementsByClass.",
+    "answear_c": "getByClassName.",
+    "answear_d": "getByClass.",
+    "correct_answear": "a",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 150,
+    "question_name": "Which of the following values is not a Boolean false?",
+    "answear_a": "Boolean('false').",
+    "answear_b": "Boolean(0).",
+    "answear_c": "Boolean('*').",
+    "answear_d": "Boolean(NaN).",
+    "correct_answear": "c",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 151,
+    "question_name": "What is the HTTP verb to request the contents of an existing resource?",
+    "answear_a": "DELETE.",
+    "answear_b": "GET.",
+    "answear_c": "PATCH.",
+    "answear_d": "POST.",
+    "correct_answear": "b",
+    "category": "Asynchronic programming"
+  },
+  {
+    "index": 152,
+    "question_name": "Choose the set of correct data types in JavaScript?",
+    "answear_a": "None of the above.",
+    "answear_b": "Generics, Object, Date, Number.",
+    "answear_c": "Enum, Number, Decorator, Object.",
+    "answear_d": "Undefined, Object, Number, String.",
+    "correct_answear": "d",
+    "category": "Variables and data types"
+  },
+  {
+    "index": 153,
+    "question_name": "What HTML DOM property is used to get the content of an HTML Element?",
+    "answear_a": "summary.",
+    "answear_b": "height.",
+    "answear_c": "content.",
+    "answear_d": "innerHTML.",
+    "correct_answear": "d",
+    "category": "Javascript functions"
+  },
+  {
+    "index": 154,
+    "question_name": "What is a function scope?",
+    "answear_a": "It's a global object to which all functions and variables belong to.",
+    "answear_b": "A body of the function. The current context of execution. The context in which values and expressions are 'visible' or can be referenced.",
+    "answear_c": "A parent function.",
+    "answear_d": "The current context of execution. The context in which values and expressions are 'visible' or can be referenced.",
+    "correct_answear": "d",
+    "category": "Javascript functions"
+  },
+  {
+    "index": 155,
+    "question_name": "Is it possible to use the Function constructor to create a new function in JS?",
+    "answear_a": "Yes, it is possible to create a function with Function constructor.",
+    "answear_b": "Function constructor is outdated.",
+    "answear_c": "No, it's not possible.",
+    "answear_d": "Function constructor doesn't exist in JS.",
+    "correct_answear": "a",
+    "category": "Javascript functions"
+  },
+  {
+    "index": 156,
+    "question_name": "What does the arguments object contain?",
+    "answear_a": "Sum of the function arguments.",
+    "answear_b": "String with comma-divided arguments.",
+    "answear_c": "Array-like object of the arguments used when the function was called.",
+    "answear_d": "Number of the arguments.",
+    "correct_answear": "c",
+    "category": "Classes and OOP"
+  },
+  {
+    "index": 157,
+    "question_name": "Choose correct ways how to get element with 'btn-id' id?",
+    "answear_a": "None of the above.",
+    "answear_b": "document.querySelector(.btn-id');",
+    "answear_c": "document.getElementByld (#btn-id');",
+    "answear_d": "document.getElementByld ('btn-id');",
+    "answear_e": "document.getElementsByTagName('btn-id');",
+    "correct_answear": "d",
+    "category": "Javascript functions"
+  },
+  {
+    "index": 158,
+    "question_name": "What can react to an event of some type, executing a specific function?",
+    "answear_a": "HTML DOM Events.",
+    "answear_b": "HTML DOM Functions.",
+    "answear_c": "HTML DOM Triggers.",
+    "answear_d": "HTML DOM Reactions.",
+    "correct_answear": "a",
+    "category": "Javascript functions"
+  },
+  {
+    "index": 159,
+    "question_name": "let v = (!!'0'); console.log(v); What will the console print?",
+    "answear_a": "null.",
+    "answear_b": "undefined.",
+    "answear_c": "true.",
+    "answear_d": "false.",
+    "correct_answear": "c",
+    "category": "Variables and data types"
+  },
+  {
+    "index": 160,
+    "question_name": "Is it possible to change a function's context of execution?",
+    "answear_a": "You can only change it one time. Revert is not possible.",
+    "answear_b": "Function context of execution always remains the same.",
+    "answear_c": "Yes, there are several ways to do it.",
+    "answear_d": "It's deprecated in ES6.",
+    "correct_answear": "c",
+    "category": "Javascript functions"
   }
 ]
